@@ -4,8 +4,8 @@ import openai
 
 # Initializes your app with your bot token and signing secret
 app = App(
-    token=os.environ.get("SLACK_BOT_TOKEN"),
-    signing_secret=os.environ.get("SLACK_SIGNING_SECRET")
+    token=os.getenv("SLACK_BOT_TOKEN"),
+    signing_secret=os.getenv("SLACK_SIGNING_SECRET")
 )
 
 # Initializes OpenAI
