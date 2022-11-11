@@ -10,6 +10,12 @@ Slack Bot for Ted's Hub
 | OPENAI_API_KEY        | This is the API key on https://beta.openai.com/account/api-keys |
 | OPENAI_ORGANIZATION   | This is the Organization ID on https://beta.openai.com/account/org-settings |
 
+## Running HubBot
+By default, HubBot will run on port 3000.  To override that, set the `PORT` environment variable.
+
+```
+python app.py
+```
 
 ## Commands
 
